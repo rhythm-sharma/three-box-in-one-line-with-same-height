@@ -1,0 +1,40 @@
+/* CSS for solution - 1 */
+
+.col-container {
+    display: table;
+    width: 100%;
+}
+
+.col {
+    display: table-cell;
+    width: 33%;
+    padding: 16px;
+}
+
+.col-container .col:nth-child(odd) {
+    background: #ccc;
+}
+
+.col-container .col:nth-child(even) {
+    background: #eee;
+}
+
+
+/* CSS for solution - 2 */
+
+.flexbox {
+    display: flex;
+    overflow: hidden;
+}
+
+.flexbox .col {
+    flex: 1;
+}
+
+.flexbox .col:nth-child(odd) {
+    background: #ccc;
+}
+
+.flexbox .col:nth-child(even) {
+    background: #eee;
+}
